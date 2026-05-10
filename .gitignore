@@ -1,0 +1,100 @@
+ Node modules
+node_modules/
+**/node_modules/
+frontend/node_modules/
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+
+# API keys and sensitive config (IMPORTANT!)
+**/application.properties
+# If you want to track application.properties, use application.properties.example instead
+# and keep the real one local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Maven specific
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Spring Boot
+backend/HELP.md
+
+# React specific
+frontend/.env.production
+frontend/.env.development
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.com
+*.dll
+*.exe
+*.o
+*.so

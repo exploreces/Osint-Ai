@@ -1,0 +1,24 @@
+# SpectralINT Configuration Example
+# Copy this file to application.properties and add your actual API key
+
+server.port=8080
+
+# Anthropic API
+anthropic.api.key=YOUR_ANTHROPIC_API_KEY_HERE
+anthropic.api.url=https://api.anthropic.com/v1/messages
+
+# Async thread pool
+spring.task.execution.pool.core-size=8
+spring.task.execution.pool.max-size=16
+spring.task.execution.pool.queue-capacity=50
+spring.task.execution.thread-name-prefix=agent-
+
+# Logging - Enhanced for debugging
+logging.level.com.spectralint=DEBUG
+logging.level.com.spectralint.agent=DEBUG
+logging.level.com.spectralint.service=DEBUG
+logging.level.root=INFO
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+
+# Jackson
+spring.jackson.serialization.write-dates-as-timestamps=false
