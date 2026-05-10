@@ -232,8 +232,4 @@ This platform is designed for **ethical, passive intelligence gathering only**:
 | Monitoring | Micrometer + Prometheus + Grafana |
 | Deployment | Docker Compose: frontend (nginx) + backend (JVM) |
 
----
 
-## License
-
-MIT — For security research and authorized assessments only.
